@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Material You Widgets</string>
+    <string name="widget_clock_desc">Material You adaptive Pixel clock with scalloped and pill styles.</string>
+    <string name="widget_weather_desc">Pixel at-a-glance weather pill with condition and temperature.</string>
+    <string name="widget_battery_desc">Pixel circular battery gauge with percentage and charging status.</string>
+    <string name="widget_music_desc">Material You media player widget with live controls and track info.</string>
+    <string name="widget_quote_desc">Daily inspiration card in Pixel squircle layout.</string>
+    <string name="widget_custom_desc">Custom user-created Material You widget with webpage links, trackers, or notes.</string>
+</resources>

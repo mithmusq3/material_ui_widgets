@@ -1,0 +1,6 @@
+{
+  "name": "Material You Widgets",
+  "description": "Custom Material You widgets app inspired by Google Pixel with dynamic color clocks, weather, battery, music, and system status widgets with homescreen support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

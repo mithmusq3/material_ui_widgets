@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (canvas is 108dp, center is 54, safe radius 33dp: x,y between 21 and 87) -->
+    
+    <!-- Scalloped 4-petal Material You Clock Background -->
+    <path
+        android:pathData="M54,24 C57,24 61,28 64,31 C68,29 73,30 75,34 C77,37 77,42 79,45 C83,48 84,53 84,56 C84,59 83,64 79,67 C77,70 77,75 75,78 C73,82 68,83 64,81 C61,84 57,88 54,88 C51,88 47,84 44,81 C40,83 35,82 33,78 C31,75 31,70 29,67 C25,64 24,59 24,56 C24,53 25,48 29,45 C31,42 31,37 33,34 C35,30 40,29 44,31 C47,28 51,24 54,24 Z"
+        android:fillColor="#80B3FF" />
+
+    <!-- Inner Circle Face -->
+    <path
+        android:pathData="M54,32 A24,24 0 1 0 54,80 A24,24 0 1 0 54,32"
+        android:fillColor="#D8E2FF" />
+
+    <!-- Center Pivot -->
+    <path
+        android:pathData="M54,53 A3,3 0 1 0 54,59 A3,3 0 1 0 54,53"
+        android:fillColor="#004785" />
+
+    <!-- Hour Hand -->
+    <path
+        android:pathData="M52.5,56 L52.5,41 A1.5,1.5 0 0 1 55.5,41 L55.5,56 Z"
+        android:fillColor="#004785" />
+
+    <!-- Minute Hand pointing to 2 o'clock -->
+    <path
+        android:pathData="M54,54 L66,45 A1.5,1.5 0 0 1 68,48 L55,56 Z"
+        android:fillColor="#4F6070" />
+
+    <!-- Accent Pill Badge with weather sun -->
+    <path
+        android:pathData="M66,62 L78,62 A7,7 0 0 1 78,76 L66,76 A7,7 0 0 1 66,62 Z"
+        android:fillColor="#FDD663" />
+
+    <!-- Sun icon inside pill -->
+    <path
+        android:pathData="M72,66 A3,3 0 1 0 72,72 A3,3 0 1 0 72,66"
+        android:fillColor="#745B00" />
+</vector>
